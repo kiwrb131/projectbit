@@ -1,0 +1,70 @@
+.content-inside{
+    padding: 0 2%;
+
+}
+.content{
+    margin-bottom: 50px;
+
+}
+.content-inside label{
+    font-size: 30px;
+}
+.content-inside .btn-add{
+    /* margin-left: 85%; */
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.table-striped th{
+    font-weight: 400;
+}
+.table-striped {
+    font-weight: 300;
+    
+}
+.table-striped button{
+    font-size: 18px;
+}
+
+.photo-new{
+    width: 80%;
+    height: 150px;
+margin-left:10%;
+transition: ease-in-out 0.5s;
+   }
+   .photo-new:hover{
+       transform: scale(1.5);
+   }
+   .table-striped th{
+    width: 20%;
+    font-weight: 400;
+}
+.cell_text{
+width: 50%;
+max-height: 100px;
+overflow: hidden;
+
+}
+.text-overflow{
+    display: block;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    max-height: 300px;
+}
+.cell_img{
+    width: 30%;
+
+}
+.cell_status{
+    width: 5%;
+
+}
+.cell_btn{
+    width: 5%;
+
+}
+.pagination{
+    margin-left: 40%;
+}
+.headA a{
+    margin-left: 85%;
+}

@@ -1,0 +1,161 @@
+.menu h1{
+   
+    padding-top: 5%;
+}
+.dropdown{
+    position: relative;
+    display: block;
+    transition: ease-in-out 0.5s ;
+    min-width: 250px;
+    color: black;
+    background-color: white;
+   margin: 10% 0%;
+}
+.ul-menu li:hover .dropdown{
+
+    background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 250px;
+  color: black;
+ margin: 10% 0%;
+}
+.ul-menu .showli{
+    background: #A03838 0% 0% no-repeat padding-box;
+    color: white;
+}
+/* content */
+.content-inside{
+    padding: 0 2%;
+}
+.content{
+    margin-bottom: 50px;
+
+}
+.content-inside label{
+    font-size: 30px;
+}
+.content-inside .btn-add{
+    /* margin-left: 85%; */
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.table-striped th{
+    font-weight: 400;
+}
+.table-striped {
+    font-weight: 300;
+    
+}
+.table-striped button{
+    font-size: 18px;
+}
+
+.photo-new{
+    width: 80%;
+    height: 150px;
+margin-left:10%;
+transition: ease-in-out 0.5s;
+   }
+   .photo-new:hover{
+       transform: scale(1.5);
+   }
+   .table-striped th{
+    width: 20%;
+    font-weight: 400;
+}
+.cell_text{
+width: 50%;
+max-height: 100px;
+overflow: hidden;
+
+}
+.text-overflow{
+    display: block;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    max-height: 290px;
+}
+.cell_img{
+    width: 30%;
+
+}
+.cell_status{
+    width: 5%;
+
+}
+.cell_btn{
+    width: 5%;
+
+}
+.pagination{
+    margin-left: 40%;
+}
+.headA a{
+    margin-left: 85%;
+}
+/* popuup */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-weight: 300
+  }
+  .popup .close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #025c27;
+  }
+  .popup .content {
+      padding-top: 10%;
+      padding-left: 5%;
+    text-align: left;
+
+    overflow: auto;
+  }
+  
+  .popup .content input[type="text"]{
+      font-size: 22px;
+      width: 30%;
+      padding-left: 10px;
+  }
+  .popup .content .btn-add{
+      margin-top: 5%;
+      margin-bottom: 2%;
+      width: 30%;
+      float: right;
+      margin-right: 5%;
+  }
