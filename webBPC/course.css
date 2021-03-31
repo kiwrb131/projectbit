@@ -1,0 +1,256 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.border_top_course{
+    background: transparent linear-gradient(to right,  #FFDE06 0%, #FF2B00 100%) ;
+    opacity: 1;
+    height: 4px;
+    width: 100%;
+}
+.select-course{
+    width: 250px;
+    position: absolute; 
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 2.0%;
+    border-radius: 8px;
+    color: rgb(70, 70, 70);
+    margin: 3% 0% 0% 0.8%;
+    box-shadow: 0px 4px 5px 4px rgb(212, 211, 211);
+}
+.select-course label{
+    margin-left: 15%;
+    font-size: 2rem;
+}
+#year_course{
+    margin-top: 10%;
+    font-size: 25px;
+    padding: 0px 20px;
+    border-radius: 8px;
+}
+.select-course button{
+    /* padding: 10%;
+    max-width: 250px;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    transition:  ease-in-out 0.3s;
+    border:0px;
+    margin-top: 10%;
+    font-size: 26px; */
+}
+
+/* ข้างบนคือปีหลักสูตร | */
+.content{
+    background-color: white;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgb(156, 156, 156);
+    border-radius: 8px;
+}
+.main{
+    padding: 1%;
+
+}
+.head{
+    text-align: center;
+}
+.head h1:nth-child(1){font-size: 50px;font-weight: 400;line-height: 70px;}
+.head h1:nth-child(3){font-size: 30px;font-weight: 300;line-height: 40px;}
+.main{
+    display: grid;
+}
+.grid-content{
+ display:grid;
+ grid-template-columns: 50% 2fr;
+ /* grid-template-rows: 300px 1fr; */
+
+}
+
+
+.left{
+ margin: 2%;
+ padding: 3%;
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+
+}
+
+.left p{
+    font-size: 20px;
+    padding-left: 6%;
+    padding-bottom: 3%;
+}
+.left h1{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+.gb_course p {
+    padding-bottom: 0%;
+ 
+}
+.gb_course input {
+    margin-left: 30px;
+}
+.name_eng_course_topshow{
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1; 
+    padding: 0% 0% 0% 1%;
+    width: 65%;
+    margin: 0 auto;
+}
+.top-content{
+    margin-top: 2%;
+    text-align: center;
+}
+.top-content p{
+    font-size: 23px;
+    margin-bottom: 0rem;
+}.border-top{
+    height: 2px;
+    /* background: transparent linear-gradient(to left,  #FFDE06 0%, #FF2B00 100%); */
+    background: #E2E2E2;  
+}
+
+.right{
+    margin: 2%;
+    padding: 3%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.right h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.right p{
+    font-size: 20px;
+    padding-left: 6%;
+}
+.right h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.right .btn_bluegoto{
+    margin-left: 30px;
+}
+
+
+/* .right input[type="button"]{
+    background: transparent linear-gradient(89deg, #f1d96c 0%, #FF4501 100%) 0% 0% no-repeat padding-box;
+border-radius: 14px;
+color: white;
+font-size: 25px;
+font-weight: 500;
+text-align: center;
+border: 0px solid;
+padding: 5px 60px;
+margin: 1%;
+cursor: pointer;
+
+} */
+.bottom{
+    border: 1px solid rgb(231, 231, 231);
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 4px 2px rgb(230, 228, 228);
+}
+.map iframe{
+   width: 100%;
+   height: 300px;
+border: 0px solid;
+border-radius: 10px;
+
+    margin: 0 auto;
+}
+.area_grid{
+   
+    display: grid;
+     grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+     grid-gap: 20px;
+     width: 100%;
+     text-align: center;
+    }
+.grid_item{
+    text-align: center;
+}
+.grid_item img{
+    max-width: 280px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+       transition: ease-in-out 0.5s;
+    
+}
+.grid_item img:hover{
+    transform: scale(2);
+}
+
+ul.pagination{
+    padding-top:20px ;
+    margin-left: 40%;
+}
+
+.btn_download{
+    color: white;;
+    background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+     padding: 10px;
+    font-size: 26px;
+    max-width: 250px;
+    width: 100%;
+    height: 100px;
+    margin-top: 10%;
+    outline: none;
+    border: 0px solid;
+    transition: ease-in-out 0.3s;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn_download:hover{
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  
+}
+.btn_bluegoto{
+    color: white;;
+     padding: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    
+    border: 0px solid;
+    transition: ease-in-out 0.3s;
+    background-size: 300% 100%;
+
+    border-radius: 8px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+.btn_bluegoto:hover{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}

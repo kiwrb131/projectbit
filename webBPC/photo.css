@@ -1,0 +1,93 @@
+/* set body */
+
+/* start section */
+
+
+/* .photo{
+    margin-top: 4%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+
+} */
+section{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.container{
+    min-height:80% ;
+    margin: 0 auto;
+    /* margin-top: 5px; */
+    /* margin-left: 15%; */
+    text-align: center;
+    max-width: 80%;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    box-shadow: 0 3px 6px rgb(156, 156, 156);
+    border-radius: 8px;
+
+}
+.container h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.container h1:nth-child(3){
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.sheach{
+    margin-left: 60%;
+}
+.grid_photo{
+    padding: 1%;
+    display: grid ;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+.photo{
+   /* display: grid ;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 30px; */
+display: inline-block;
+border-radius: 8px;
+   
+transition:  ease-in-out 0.3s;
+}
+
+.photo:hover{
+    
+    
+    background:rgb(223, 222, 222);
+}
+.item_new img{
+    max-width: 300px;
+    width: 100%;
+    max-height: 230px;
+    height: 100%;
+   border-radius: 8px;
+   transition: ease-in-out 0.3s;
+
+}
+.photo:hover img{
+    transform: scale(1.1);
+}
+.photo a {
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(10, 10, 10);
+}
+.photo p{
+    margin-top: 3%;
+    
+}
+#pagination_controlsa{
+    margin-top: 2%;
+}
+/* end section */
+/* start footer */
+
+
+/* end footer */

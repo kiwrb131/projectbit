@@ -1,0 +1,133 @@
+/* set body */
+/* start hesder and navbar*/
+
+/* start section */
+.search{
+    margin-left: 790px;
+top: 366px;
+left: 1087px;
+width: 445px;
+height: 51px;
+background: #F1F1F1 0% 0% no-repeat padding-box;
+border-radius: 36px;
+opacity: 1;
+}
+
+.data{
+    position: relative;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 22px;
+  /* background: turquoise; */
+  width: 80%;
+ padding-bottom: 10%;
+  margin-top: 10px;
+}
+.data p{
+    padding-left: 5%;
+}
+
+h1:nth-child(1){
+ padding-top: 30px;
+ font-weight: 400;
+font-size: 60px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+h1:nth-child(2){
+    padding-top: 30px;
+    font-weight: 400;
+   font-size: 60px;
+   letter-spacing: 0px;
+   color: #000000;
+   opacity: 1;
+   }
+.pic{
+    padding-top: 40px;
+}
+/* start section */
+.con_head{
+  margin-top: 20px
+}
+.con_head h2{
+  margin-left: 10%;
+  width: auto;
+height: 49px;
+text-align: left;
+font-size: 30px;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.con_head .hr_head{
+  width: 300px;
+  margin-left: 10%;
+  border: 0.3px solid rgb(199, 199, 199);
+}
+.con_head p{
+  font-size: 20px;
+  color: #616161;
+  text-align: left;
+  margin-left: 10%;
+}
+.container-detall{
+    text-align: center;
+    margin-left: 270px;
+width: 1423px;
+height: auto;
+margin-bottom: 3%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 8px;
+box-shadow: 0 3px 6px rgb(156, 156, 156);
+}
+.container{
+    text-align: center;
+width: 100%;
+
+background: #F4F4F4 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+/* start footer */
+
+/* end footer */
+/* slider*/
+.mySlides img{
+    /* max-width: 50%;
+    max-height: 50%; */
+    /* width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    vertical-align: middle;*/
+} 
+/* Position the image container (needed to position the left and right arrows) */
+.zoneimgslider {
+    position: relative;
+   
+  }
+  
+  /* Hide the images by default */
+  /* .mySlides {
+    display: none;
+  } */
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  /* .cursor {
+    cursor: pointer;
+  } */
+  
+
+
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  

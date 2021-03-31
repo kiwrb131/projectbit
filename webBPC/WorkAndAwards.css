@@ -1,0 +1,378 @@
+/* set body */
+/* end header */
+/* start section */
+.btn-news{
+    background: #910202 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+    width: 246px;
+height: 49px;
+    font-size: 30px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 2%;
+margin-left: 2%;
+border-radius: 8px;
+cursor: pointer;
+}
+.btn-notact{
+    background: #efefef 0% 0% no-repeat padding-box;
+border: 1px solid #838282;
+opacity: 1;
+    width: 246px;
+height: 49px;
+    font-size: 30px;
+letter-spacing: 0px;
+color: #272727;
+opacity: 1;
+margin-top: 2%;
+margin-left: 2%;
+border-radius: 8px;
+cursor: pointer;
+transition: ease-in-out 0.3s;
+}
+.btn-notact:hover{
+    background: #910202 0% 0% no-repeat padding-box;
+
+color: #ffffff;
+
+cursor: pointer;
+}
+
+.title{
+    text-align: center;
+
+}
+.title h1:nth-child(1){font-size: 60px; font-weight: 400;}
+.title h1:nth-child(2){font-size: 40px; font-weight: 400; line-height: 20px;}
+.container-detall{
+    margin-top: 1%;
+    text-align: left;
+}
+.news{
+    margin-top: 2%;
+margin-left: 4%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    border-bottom: 1px solid silver ;
+    padding-bottom: 15px;
+    
+}
+.detall{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+}
+.container{
+    
+    background-color: #F4F4F4;
+
+    text-align: center;
+    
+}
+.date{
+    float: right;
+}
+
+/* h1.year-type{
+    
+font-size: 60px;
+font-weight: 400;
+letter-spacing: 0px;
+color: #B75842;
+opacity: 1;
+} */
+/* .year-study{
+    border-radius: 8px;
+
+    height: 550px;
+    width: 80%;
+    margin: 10% auto;
+    background: white;
+    box-shadow: 0 3px 6px rgb(156, 156, 156);
+
+    
+}
+.year-study button{
+    
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0px;
+    /* color: #F2F2F2; */
+    /* width: 75%;
+    height: 97px;
+    transition: ease-in-out 0.3s;
+    border: 0px solid;
+    border-radius: 10px;
+    margin-top: 2%;
+   cursor: pointer; 
+} */
+/* .active-year{
+    background-color: #A03838 ;
+    color: white;
+}
+.year-study button:hover{
+    background: #A03838 ;
+    color: white;
+    
+} */ 
+
+footer{
+    text-align: left;
+}
+.container-detall{
+    
+    margin:  10px auto;
+    width: 80%;
+    border-radius: 8px;
+    background-color: white;
+    padding-bottom: 4%;
+    box-shadow: 0 3px 6px rgb(156, 156, 156);
+
+}
+.detallFonews{
+    /* overflow: scroll; */
+    margin-top: 1px;
+    padding:1;
+    /* background: rgb(240, 240, 240); */
+}
+.texttable{
+    max-height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detallFonews img{
+    max-width: 380px;
+    max-height: 250px;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+}
+
+.detallFonews img:hover{
+    transform: scale(1.2);
+}
+.detallFonews a{
+text-decoration: none;
+font-size: 26px;
+}
+.detallFonews span{
+    font-size: 20px;
+}
+#pagination_controls{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+/* end section */
+/* start footer */
+
+
+/* end footer */
+/* คลิกรูป*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  .reset-this{
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+    /* basic modern patch */
+    all: initial;
+    all: unset;
+}
